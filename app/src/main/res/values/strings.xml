@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WomenSecurity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_getthelocation">Map</string>
+</resources>

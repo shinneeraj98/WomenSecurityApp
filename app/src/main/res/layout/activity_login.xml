@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+<LinearLayout
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ws"
+    tools:context=".login"
+    android:padding="50dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="LOGIN"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="50dp"/>
+    <EditText
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the E-mail ID"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/email"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Password"
+        android:id="@+id/pass"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/btnlgn"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="30dp"
+        android:fontFamily="cursive"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF YOU ARE NEW GO TO SIGNUP"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="20dp"
+        android:layout_margin="30dp"
+        android:id="@+id/btn"/>
+</LinearLayout>
+</ScrollView>
